@@ -27,11 +27,15 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/composition-api/module", "@pinia/nuxt"],
+  buildModules: [
+    "@nuxt/typescript-build",
+    "@nuxtjs/composition-api/module",
+    // ["~/modules/pinia-nuxt", { disableVuex: false }],
+    "@pinia/nuxt",
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
 };

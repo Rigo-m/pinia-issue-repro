@@ -9,12 +9,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/composition-api": "https://github.com/nuxt-community/composition-api#fix/transpile-server-vue",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
-    "@nuxtjs/composition-api": "^0.29.3",
-    "@pinia/nuxt": "^0.1.2",
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@pinia/nuxt": "0.1.2",
     "pinia": "^2.0.2"
   }
 }
